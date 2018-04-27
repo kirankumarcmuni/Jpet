@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 
-       Copyright 2010-2017 the original author or authors.
+       Copyright 2010-2018 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -352,9 +352,9 @@
       </build>
     </profile>
     <profile>
-      <id>jdk6</id>
+      <id>jdk8</id>
       <activation>
-        <jdk>1.6</jdk>
+        <jdk>1.8</jdk>
       </activation>
       <build>
         <pluginManagement>
@@ -373,17 +373,23 @@
       </build>
     </profile>
   </profiles>
-   <distribution management>
+...
+<build>
+...
+<distribution management>
       <Release>
           <id>/Release</id>
           <name>Release</name>
           <url>http://localhost:8081/repository/Release/</url>
        </Release>
-        <Snapshot>
-           <id>Snapshot</id>
-           <name>Snapshot</name>
-           <url>http://localhost:8081/repository/Snapshot/</url>
+
+       <Snapshot>
+          <id>Snapshot</id>
+          <name>Snapshot</name>
+          <url>http://localhost:8081/repository/Snapshot/</url>
         </Snapshot> 
    </distribution management> 
        
+
+
 </project>
