@@ -373,7 +373,6 @@
       </build>
     </profile>
   </profiles>
-<distributionManagement>
         <repository>
             <id>/Release</id>
             <name>Release</name>
@@ -383,7 +382,6 @@
             <id>Snapshot</id>
             <name>Snapshot</name>
             <url>http://localhost:8081/repository/Snapshot/</url>
-        </Snapshot>
-    </distributionManagement> 
+        </Snapshot> 
        
 </project>
