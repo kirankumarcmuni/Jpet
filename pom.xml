@@ -373,15 +373,17 @@
       </build>
     </profile>
   </profiles>
-        <repository>
-            <id>/Release</id>
-            <name>Release</name>
-            <url>http://localhost:8081/repository/Release/</url>
-        </repository>
+  ---     
+   <distribution management>
+      <Release>
+          <id>/Release</id>
+          <name>Release</name>
+          <url>http://localhost:8081/repository/Release/</url>
+       </Release>
         <Snapshot>
-            <id>Snapshot</id>
-            <name>Snapshot</name>
-            <url>http://localhost:8081/repository/Snapshot/</url>
+           <id>Snapshot</id>
+           <name>Snapshot</name>
+           <url>http://localhost:8081/repository/Snapshot/</url>
         </Snapshot> 
        
 </project>
