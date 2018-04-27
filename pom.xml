@@ -375,16 +375,15 @@
   </profiles>
 <distributionManagement>
         <repository>
-        <Releaserepository>
             <id>/Release</id>
-            <name>Releases</name>
-            <url>http://localhost:8081/#admin/repository/repositories:Release</url>
+            <name>Release</name>
+            <url>http://localhost:8081/repository/Release/</url>
         </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
+        <Snapshot>
+            <id>Snapshot</id>
             <name>Snapshot</name>
-            <url>http://localhost:8081/#admin/repository/repositories:Snapshot</url>
-        </snapshotRepository>
+            <url>http://localhost:8081/repository/Snapshot/</url>
+        </Snapshot>
     </distributionManagement> 
        
 </project>
